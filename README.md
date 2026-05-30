@@ -29,18 +29,18 @@ The following files are to be downloaded:
 ### Add docker images
 Add the four dowloaded docker images to the docker environment with the following commands:
 ```
-$> docker load < image.shhe-v5-1.tar.gz
-$> docker load < image.whma-v5-1.tar.gz
-$> docker load < image.sensei_backend__v1_0.tar.gz
-$> docker load < image.sensei_gui__v1_0.tar.gz
+docker load < image.shhe-v5-1.tar.gz
+docker load < image.whma-v5-1.tar.gz
+docker load < image.sensei_backend__v1_0.tar.gz
+docker load < image.sensei_gui__v1_0.tar.gz
 ```
 
 
 ### Add cache models
 ```
-$> cd $HOME/.cache
-$> tar xvfz cache_huggingface.tar.gz
-$> tar xvfz cache_shas-whisper.tar.gz
+cd $HOME/.cache
+tar xvfz cache_huggingface.tar.gz
+tar xvfz cache_shas-whisper.tar.gz
 ```
 
 
@@ -48,10 +48,10 @@ $> tar xvfz cache_shas-whisper.tar.gz
 ### Add software and adapted model
 Create a directory (p.es. $HOME/subtitler) and extract there bothe the adapted MADALA models and the software:
 ```
-$> mkdir -p $HOME/subtitler
-$> cd $HOME/subtitler
-$> tar xvfz sw.tar.gz
-$> tar xvfz model_content.tar.gz
+mkdir -p $HOME/subtitler
+cd $HOME/subtitler
+tar xvfz sw.tar.gz
+tar xvfz model_content.tar.gz
 ```
 
 
@@ -60,15 +60,15 @@ The following tre script are utilzed to manage the subtitler pipeline:
 
 1. DO_FBK-subtitler_start.sh to start the system
 ```
-$> bash DO_FBK-subtitler_start.sh
+bash DO_FBK-subtitler_start.sh
 ```
 
 2. DO_FBK-subtitler_end.sh to end the system
 ```
-$> bash DO_FBK-subtitler_end.sh
+bash DO_FBK-subtitler_end.sh
 ```
 
 3. DO_FBK-subtitler_check.sh to check if the system is running
 ```
-$> bash DO_FBK-subtitler_check.sh
+bash DO_FBK-subtitler_check.sh
 ```
