@@ -18,8 +18,6 @@ The following files are to be downloaded:
 3. the adapted MADLAD model archive [model_content.tar.gz (22.3 MB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCirQvgZepNRZDFFF2qqzC6AbfDwKh_9NNEt3gpbAzAOco?e=o3JVGK)
 4. the docker image SHHE v5.1 [image.shhe_v5-1.tar.gz (7.4 GB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQAJXMTrSn6ZS4vFlFQ-pwEmAc-dkH7O2Hr0R11CYVoRYhU?e=VUfeEj)
 5. the docker image WHMA v5.1 [image.whma_v5-1.tar.gz (8.6 GB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQAcROjBLY0qTpCr7LSMDlRBAUaBE3ixpEwR9Ask0StkK4I?e=tU8GDP)
-6. the docker image sensei_backend v1.0 [image.sensei_backend__v1_0.tar.gz (0.3 GB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCmkbaK9yzcQqOGW0SIIuTYAe5d-0JVUiUTMkdWRa8uXuw?e=w7SHOy)
-7. the docker image sensei_gui v1.0 [image.sensei_gui__v1_0.tar.gz (0.2 GB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQA1xOuMyMXmRqm7xKrDtg9qAd4eJ80BBwp0FppRB2KYF1o?e=oWohus)
 8. the software [sw.tar.gz (0.02 GB)](https://fbk.sharepoint.com/:u:/s/MTUnit/IQChqyMJutSVS53KUtR6EAjIAUFRtY2cTBEBTkb-7LtvOwQ?e=2xmQmP)
 
 
@@ -31,8 +29,6 @@ Add the four dowloaded docker images to the docker environment with the followin
 ```
 docker load < image.shhe-v5-1.tar.gz
 docker load < image.whma-v5-1.tar.gz
-docker load < image.sensei_backend__v1_0.tar.gz
-docker load < image.sensei_gui__v1_0.tar.gz
 ```
 
 
